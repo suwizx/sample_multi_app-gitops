@@ -6,4 +6,4 @@ metadata:
 data:
   environment: dev
   managed-by: argocd
-  message: "Updated from Git"
+  message: "Automatic Sync from Git"
