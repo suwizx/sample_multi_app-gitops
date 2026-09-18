@@ -16,6 +16,9 @@ spec:
         app: sample-multi-app
 
     spec:
+      imagePullSecrets:
+        - name: dockerhub-cred
+
       containers:
         - name: web
           image: it67070191/sample_multi_app:v1.0
@@ -48,3 +51,4 @@ spec:
               port: 8080
             initialDelaySeconds: 5
             periodSeconds: 5
+
