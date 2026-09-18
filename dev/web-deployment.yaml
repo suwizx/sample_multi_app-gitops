@@ -4,7 +4,6 @@ metadata:
   name: sample-multi-app
   namespace: dev
 spec:
-  replicas: 3
 
   selector:
     matchLabels:
