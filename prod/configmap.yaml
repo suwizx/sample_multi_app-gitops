@@ -7,4 +7,4 @@ data:
   MONGO_HOST: mongodb
   MONGO_PORT: "27017"
   APP_ENV: prod
-  APP_VERSION: v1.1
+  APP_VERSION: v1.2
